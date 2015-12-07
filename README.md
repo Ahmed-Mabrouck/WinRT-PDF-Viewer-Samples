@@ -56,8 +56,8 @@ You can explore these samples (Ordinary & MVVM) or Follow These Simple Steps:
 		
 		*Note: for initial files inside your project (AppX Files), make sure that the file is copied to output directory by following the coming steps.
 		
-01. Right click on your file and then select Properties.
+		01. Right click on your file and then select Properties.
 		
-02. In Build Action property, choose Content.
+		02. In Build Action property, choose Content.
 		
-03. In Copy to Outpu Directory, choose Copy If Newer.
+		03. In Copy to Outpu Directory, choose Copy If Newer.
