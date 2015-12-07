@@ -1,0 +1,38 @@
+﻿<Page x:Class="PdfViewerSample.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:PdfViewerSample"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d"
+      xmlns:vm="using:PdfViewerSample.ViewModels"
+      xmlns:c="using:WinRT.Controls"
+      Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.DataContext>
+        <vm:MainViewModel />
+    </Page.DataContext>
+
+    <Grid>
+        <Grid Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="11*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Viewbox>
+                <TextBlock FontSize="40"
+                           VerticalAlignment="Center"
+                           Text="Windows Runtime PDF Viewer Sample (MVVM)" />
+            </Viewbox>
+            <c:PdfViewer Grid.Row="1"
+                         Source="{Binding Pdf}" />
+            <Viewbox Grid.Row="3">
+                <TextBlock 
+                           FontSize="28"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           Text="Developed By Ahmed Mabrouck (RoCa) 2015 | All Rights Reserved." />
+            </Viewbox>
+        </Grid>
+    </Grid>
+</Page>
