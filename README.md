@@ -21,9 +21,9 @@ You can explore these samples (Ordinary & MVVM) or Follow These Simple Steps:
 
 03. Add PdfViewer control to your page like this:
 
-```
-    <c:PdfViewer />
-```
+	```XAML
+	    <c:PdfViewer />
+	```
 
 04. You can load your pdf inside your control using 1 of 2 ways:
 
