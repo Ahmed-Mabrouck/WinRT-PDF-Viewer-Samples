@@ -34,7 +34,7 @@ You can explore these samples (Ordinary & MVVM) or Follow These Simple Steps:
 			```
 			
 		02. In you code behind class, you can call this method.
-			```CS
+			```cs
 			testPdf.PickPdfFile();
 			```
 			
