@@ -23,10 +23,10 @@ You can explore these samples (Ordinary & MVVM) or Follow These Simple Steps:
 04.You can load your pdf inside your control using 1 of 2 ways:
 
 01.Using PickPdfFile() method.
-		01.Give your control a codebehind name (x:Name).
-	        ```XAML
-	    <c:PdfViewer x:Name="testPdf"/>
-		```
+01.Give your control a codebehind name (x:Name).
+```XAML
+<c:PdfViewer x:Name="testPdf"/>
+```
 		02.In you code behind class, you can call this method
 		```C#
 	    testPdf.PickPdfFile();
