@@ -9,21 +9,21 @@ It is built over PDF.js developed by Mozilla.
 # How Can I Use It ?
 You can explore these samples (Ordinary & MVVM) or Follow These Simple Steps:
 
-01.Install WinRT PDF Viewer Nuget Package (can find the Nuget package here: https://www.nuget.org/packages/WinRtPdfViewer/).
+01. Install WinRT PDF Viewer Nuget Package (can find the Nuget package here: https://www.nuget.org/packages/WinRtPdfViewer/).
 
-02.In your XAML page (Inside <Page ..> Tag), Add reference to the namespace containing the PdfViewer control like this:
+02. In your XAML page (Inside <Page ..> Tag), Add reference to the namespace containing the PdfViewer control like this:
 ```XAML
     xmlns:c="using:WinRT.Controls"
 ```
 
-03.Add PdfViewer control to your page like this:
+03. Add PdfViewer control to your page like this:
 ```XAML
     <c:PdfViewer />
 ```
-04.You can load your pdf inside your control using 1 of 2 ways:
+04. You can load your pdf inside your control using 1 of 2 ways:
 
-01.Using PickPdfFile() method.
-01.Give your control a codebehind name (x:Name).
+`01. Using PickPdfFile() method.
+``01. Give your control a codebehind name (x:Name).
 ```XAML
 <c:PdfViewer x:Name="testPdf"/>
 ```
