@@ -14,9 +14,8 @@ You can explore these samples (Ordinary & MVVM) or Follow These Simple Steps:
 02. In your XAML page (Inside <Page ..> Tag), Add reference to the namespace containing the PdfViewer control like this:
 ...```XAML
 <Page
-....
 xmlns:c="using:WinRT.Controls"
-....>
+>
 ```
 
 03. Add PdfViewer control to your page like this:
