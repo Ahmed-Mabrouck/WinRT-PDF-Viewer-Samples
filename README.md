@@ -40,18 +40,21 @@ You can explore these samples (Ordinary & MVVM) or Follow These Simple Steps:
 			
 		03. A FileOpenPicker dialog will appear, the picked PDF file will be loaded inside PdfViewer control directly.
 		
-	02.Using Source property.
-		01.Copy your PDF file to your Project [AppX (ms-appx)].
+	02. Using Source property.
+		01. Copy your PDF file to your Project [AppX (ms-appx)].
 		
-		02.Set PdfViewer control Source property to the AppX URI of your file.
+		02. Set PdfViewer control Source property to the AppX URI of your file.
+		
 		```XAML
 		<c:PdfViewer Source="ms-appx:///sample.pdf"/>
 		```
+		
 		Or Bind it to a Uri property.
 		```XAML
 		<c:PdfViewer Source="{Binding PdfFile}"/>
 		```
+		
 		*Note: for initial files inside your project (AppX Files), make sure that the file is copied to output directory by following the coming steps
-		01.Right click on your file and then select Properties.
-		02.In Build Action property, choose Content.
-		03.In Copy to Outpu Directory, choose Copy If Newer.
+		01. Right click on your file and then select Properties.
+		02. In Build Action property, choose Content.
+		03. In Copy to Outpu Directory, choose Copy If Newer.
