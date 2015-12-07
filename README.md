@@ -24,7 +24,7 @@ You can explore these samples (Ordinary & MVVM) or Follow These Simple Steps:
 
 	01.Using PickPdfFile() method.
 		01.Give your control a codebehind name (x:Name).
-		```XAML
+	        ```XAML
 	    <c:PdfViewer x:Name="testPdf"/>
 		```
 		02.In you code behind class, you can call this method
