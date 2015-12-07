@@ -32,10 +32,12 @@ You can explore these samples (Ordinary & MVVM) or Follow These Simple Steps:
 			```XAML
 			<c:PdfViewer x:Name="testPdf"/>
 			```
+			
 		02. In you code behind class, you can call this method.
 			```C#
 		    	testPdf.PickPdfFile();
 			```
+			
 		03. A FileOpenPicker dialog will appear, the picked PDF file will be loaded inside PdfViewer control directly.
 		
 	02.Using Source property.
